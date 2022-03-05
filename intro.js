@@ -24,5 +24,18 @@ while(j<5){
     console.log(j);
     j++;
 }
+// is prime in js
+
+let n=13;
+let i;
+for(i=2;i*i<=n;i++){
+    if(n%i==0){
+        console.log("Not a prime");
+        break;
+    }
+}
+if((i*i)>n){
+    console.log("Is prime");
+}
 
 
