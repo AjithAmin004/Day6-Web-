@@ -23,3 +23,16 @@ let a = function sub(num1,num2){
     return num1-num2;
 }
 console.log(a(7,3));
+
+
+// IIFE Function - immedietly invoked function expression,This function we dont have to call it willl be called automatically after function creation and it dont have any name
+
+(function(){
+    console.log("I am IIFE Function without parameter");
+})();
+
+
+//IIFE with parameter
+(function(num1,num2){
+    console.log(num1*num2);
+})(5,3);
